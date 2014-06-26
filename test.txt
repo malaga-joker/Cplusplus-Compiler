@@ -1,0 +1,36 @@
+
+int main()
+{
+
+/* there is a comment and the limit input for a comment is 100 letters*/
+
+/*any code must in the int main() {} format!*/
+
+int i;  /*only int variable*/ /*assign a variable while declare it is not allowed*/
+
+i=7;    /* Three ways to assign a variable =,+=,-+ */
+int j;
+j=3;  /*assign an int number or variable*/
+
+if(i>j&&i!=3) /*logical operators are >,>=,<,<=,!=,==,&&,|| */
+cout<<(i*3+7)-i*j/3;  /* Algebra operators are +,-,*,/,%  */
+cout<<endl; /* only one << in cout statement*/
+while(i>=j||i==0)
+i-=1;
+cout<<i;
+cout<<endl;
+int z;
+z=i*j;
+cout<<z;
+}
+
+
+
+
+
+
+
+
+
+
+
